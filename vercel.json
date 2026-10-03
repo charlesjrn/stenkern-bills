@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    { "source": "/", "destination": "/stenkern-bills/", "permanent": false }
+  ],
+  "rewrites": [
+    { "source": "/stenkern-bills/assets/:path*", "destination": "/assets/:path*" },
+    { "source": "/stenkern-bills/:path*", "destination": "/index.html" }
+  ]
+}
